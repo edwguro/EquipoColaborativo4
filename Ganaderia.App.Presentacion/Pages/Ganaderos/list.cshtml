@@ -4,8 +4,8 @@
 }
 <h1> Listado de ganaderos</h1>
 
-<table>
-  <tr>
+<table  class="table table-striped">
+  <tr class="table-primary">
     <th>Nombres</th>
     <th>Apellidos</th>
     <th>NumeroTelefono</th>
@@ -17,7 +17,7 @@
   
   @foreach (var ganadero in Model.Ganaderos)
   {
-    <tr>
+    <tr class="bg-warning">
     <td>@ganadero.Nombres</td>
     <td>@ganadero.Apellidos</td>
     <td>@ganadero.NumeroTelefono</td>

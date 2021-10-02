@@ -4,8 +4,8 @@
 }
 <h1> Listado de Veterinarios</h1>
 
-<table>
-  <tr>
+<table  class="table table-striped">
+  <tr class="table-primary">
     <th>Nombres</th>
     <th>Apellidos</th>
     <th>NumeroTelefono</th>
@@ -20,7 +20,7 @@
   
   @foreach (var veterinario in Model.Veterinarios)
   {
-    <tr>
+    <tr class="bg-warning">
     <td>@veterinario.Nombres</td>
     <td>@veterinario.Apellidos</td>
     <td>@veterinario.NumeroTelefono</td>
