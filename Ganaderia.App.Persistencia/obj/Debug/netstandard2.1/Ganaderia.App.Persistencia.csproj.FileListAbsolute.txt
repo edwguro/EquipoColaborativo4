@@ -23,3 +23,16 @@ C:\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.A
 C:\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.csproj.CopyComplete
 C:\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.dll
 C:\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.pdb
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\bin\Debug\netstandard2.1\Ganaderia.App.Persistencia.deps.json
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\bin\Debug\netstandard2.1\Ganaderia.App.Persistencia.dll
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\bin\Debug\netstandard2.1\Ganaderia.App.Persistencia.pdb
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\bin\Debug\netstandard2.1\Ganaderia.App.Dominio.dll
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\bin\Debug\netstandard2.1\Ganaderia.App.Dominio.pdb
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.AssemblyInfo.cs
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.csproj.CopyComplete
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.dll
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.pdb

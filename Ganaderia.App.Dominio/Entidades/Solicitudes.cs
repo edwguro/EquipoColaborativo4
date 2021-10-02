@@ -6,7 +6,7 @@ namespace Ganaderia.App.Dominio
         public string FechaSolicitud { get; set; }
         public string Descripcion { get; set; }
         public string Estado{ get; set; }
-        public Administrador Administrador{ get; set; }
+        public Ganadero Ganadero{ get; set; }
         public Veterinario Veterinario { get; set; }
 
 

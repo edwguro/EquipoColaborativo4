@@ -1,0 +1,31 @@
+﻿@page
+@model Ganaderia.App.Presentacion.Pages.listModel
+@{
+}
+<h1> Listado de ganaderos</h1>
+
+<table>
+  <tr>
+    <th>Nombres</th>
+    <th>Apellidos</th>
+    <th>NumeroTelefono</th>
+    <th>Correo</th>
+    <th>Contraseña</th>
+    <th>Latitud</th>
+    <th>Longitud</th>
+  </tr>
+  
+  @foreach (var ganadero in Model.Ganaderos)
+  {
+    <tr>
+    <td>@ganadero.Nombres</td>
+    <td>@ganadero.Apellidos</td>
+    <td>@ganadero.NumeroTelefono</td>
+    <td>@ganadero.Correo</td>
+    <td>@ganadero.Contrasena</td>
+    <td>@ganadero.Latitud</td>
+    <td>@ganadero.Longitud</td>
+    </tr>  
+  }
+
+</table>

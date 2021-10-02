@@ -1,47 +1,60 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "Ganaderia.App.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/Ganaderia.App.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Ganaderia.App.Dominio.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Ganaderia.App.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../Ganaderia.App.Dominio/Ganaderia.App.Dominio.csproj",
+      "msbuildProject": "../Ganaderia.App.Dominio/Ganaderia.App.Dominio.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "Ganaderia.App.Dominio >= 1.0.0"
+    ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ganaderia.App\\Ganaderia.App.Presentacion\\Ganaderia.App.Presentacion.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Presentacion\\Ganaderia.App.Presentacion.csproj",
       "projectName": "Ganaderia.App.Presentacion",
-      "projectPath": "C:\\Ganaderia.App\\Ganaderia.App.Presentacion\\Ganaderia.App.Presentacion.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Presentacion\\Ganaderia.App.Presentacion.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Ganaderia.App\\Ganaderia.App.Presentacion\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Presentacion\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Dominio\\Ganaderia.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Dominio\\Ganaderia.App.Dominio.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

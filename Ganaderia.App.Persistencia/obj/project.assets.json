@@ -7263,42 +7263,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\user\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Ganaderia.App\\Ganaderia.App.Persistencia\\Ganaderia.App.Persistencia.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Persistencia\\Ganaderia.App.Persistencia.csproj",
       "projectName": "Ganaderia.App.Persistencia",
-      "projectPath": "C:\\Ganaderia.App\\Ganaderia.App.Persistencia\\Ganaderia.App.Persistencia.csproj",
+      "projectPath": "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Persistencia\\Ganaderia.App.Persistencia.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Ganaderia.App\\Ganaderia.App.Persistencia\\obj\\",
+      "outputPath": "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Persistencia\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-      ],
       "configFilePaths": [
-        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "targetAlias": "netstandard2.1",
           "projectReferences": {
-            "C:\\Ganaderia.App\\Ganaderia.App.Dominio\\Ganaderia.App.Dominio.csproj": {
-              "projectPath": "C:\\Ganaderia.App\\Ganaderia.App.Dominio\\Ganaderia.App.Dominio.csproj"
+            "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Dominio\\Ganaderia.App.Dominio.csproj": {
+              "projectPath": "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Dominio\\Ganaderia.App.Dominio.csproj"
             }
           }
         }
@@ -7349,7 +7339,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

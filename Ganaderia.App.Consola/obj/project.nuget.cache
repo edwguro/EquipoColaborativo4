@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "m7jJNjWb7EFfADwAPwdznd5duhX/6pzBu4xPIafDC2Erey7d2J8iqQoxb9ck7C50invYDkqwOmnHBvhMv9yhnQ==",
+  "dgSpecHash": "F/7J8gmyL2sAUyLZlr4JqIRohuiwaOIMnCHq+QYVMqi9vud2ze3YpT7koXb2C5wtxZ+avS6N2ds5sELmoweB/Q==",
   "success": true,
-  "projectFilePath": "C:\\Ganaderia.App\\Ganaderia.App.Consola\\Ganaderia.App.Consola.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Consola\\Ganaderia.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

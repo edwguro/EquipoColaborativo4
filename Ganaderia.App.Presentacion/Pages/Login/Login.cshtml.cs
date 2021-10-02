@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Ganaderia.App.Presentacion.Pages
 {
-    public class RegistrosModel : PageModel
+    public class LoginModel : PageModel
     {
         public void OnGet()
         {

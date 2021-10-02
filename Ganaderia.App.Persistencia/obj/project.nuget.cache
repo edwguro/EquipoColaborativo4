@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qf/VASCraY+8cr37nVn/DF/G0+uC6knsHEXOSX3O/eikHnIJoOC6K1zoT/lqfOd7WfbFC3GoXnsVzjb+5FQQ/w==",
+  "dgSpecHash": "m0QJEbRwH+HET31u6JtbXob06FBrZWn6PqyftoEQ4a1fXhHqAdPny/xmxTIgtrxhV6/QgCKh4ozMgeL0qSAejA==",
   "success": true,
-  "projectFilePath": "C:\\Ganaderia.App\\Ganaderia.App.Persistencia\\Ganaderia.App.Persistencia.csproj",
+  "projectFilePath": "C:\\Users\\user\\Documents\\Ganaderia.App\\Ganaderia.App.Persistencia\\Ganaderia.App.Persistencia.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

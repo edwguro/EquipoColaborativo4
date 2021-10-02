@@ -1,0 +1,37 @@
+﻿@page
+@model Ganaderia.App.Presentacion.Pages.listVeterinariosModel
+@{
+}
+<h1> Listado de Veterinarios</h1>
+
+<table>
+  <tr>
+    <th>Nombres</th>
+    <th>Apellidos</th>
+    <th>NumeroTelefono</th>
+    <th>Correo</th>
+    <th>Contraseña</th>
+    <th>Latitud</th>
+    <th>Longitud</th>
+    <th>TarjetaProfesional</th>
+    <th>Especialidad</th>
+
+  </tr>
+  
+  @foreach (var veterinario in Model.Veterinarios)
+  {
+    <tr>
+    <td>@veterinario.Nombres</td>
+    <td>@veterinario.Apellidos</td>
+    <td>@veterinario.NumeroTelefono</td>
+    <td>@veterinario.Correo</td>
+    <td>@veterinario.Contrasena</td>
+    <td>@veterinario.Latitud</td>
+    <td>@veterinario.Longitud</td>
+    <td>@veterinario.TarjetaProfesional</td>
+    <td>@veterinario.Especialidad</td>
+
+    </tr>  
+  }
+
+</table>
