@@ -14,7 +14,7 @@ namespace Ganaderia.App.Presentacion.Pages
        
         public void OnGet()
           {
-            var ganadero = new Ganadero
+           var ganadero = new Ganadero
           {
               Nombres= "Juan",
               Apellidos = "Rojas",
