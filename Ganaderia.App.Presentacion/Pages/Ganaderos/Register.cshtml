@@ -12,15 +12,27 @@
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
+    
      
     <div class="container">
         <form class="form-horizontal" role="form">
-            
-            <h2>Registro Ganadero</h2>
+
+        <style> 
+   
+       body {
+  background-color: lightblue;
+}
+     </style>
+            <h3 align="center">Registro Ganadero </h3>
             <div class="form-group">
                 <label for="nombres" class="col-sm-3 control-label">Nombres</label>
                 <div class="col-sm-9">
-                    <input type="text" id="nombres" placeholder="" class="form-control" autofocus>
+                <input type="text" id="nombres"  width = "50%" placeholder="" class="form-control" autofocus>
+                 <style>  input {
+                     width: 50%;
+                  }     
+                </style>
+                 
                 </div>
             </div>
             <div class="form-group">
@@ -89,7 +101,7 @@
                     <span class="help-block">*Campos requeridos</span>
                 </div>
             </div>
-            <button type="submit" class="btn btn-primary btn-block">Registrarse</button>
+            <button type="button" class="btn btn-success">Registrar</button>
         </form>
         <!-- /form -->
     </div>

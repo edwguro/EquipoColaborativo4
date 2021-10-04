@@ -84,3 +84,7 @@ C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netco
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\listVeterinarios.cshtml.g.cs
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Ganaderos\Register.cshtml.g.cs
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\Register2.cshtml.g.cs
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Ejemplares\Ejemplares.cshtml.g.cs
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriasClinicas\HistoriasClinicas.cshtml.g.cs
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Solicitudes\Solicitudes.cshtml.g.cs
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vacunas\Vacunas.cshtml.g.cs

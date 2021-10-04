@@ -6,13 +6,23 @@
     <title>@ViewData["Title"] - SICSA </title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" />
+    <style>
+     body {
+      background-color: lightblue;
+      
+      }
+    </style>
+    
 </head>
 <body>
+     
     <header>
+       
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <img src="C:\Users\user\Pictures\Ganaderia.App.Logo.png" alt="Sample Photo" />
-                <a class="navbar-brand" asp-area="" asp-page="/Index">SICSA S.A.</a>
+               
+                <a class="navbar-brand" asp-area="" asp-page="/Index"><h2>SICSA</h2> </a>
+        
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -20,23 +30,36 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                     <ul class="navbar-nav flex-grow-1">
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Index">Home|</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Login/Login">Usuarios</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Login/Login">Usuarios | </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Ganaderos/List">Ganaderos</a> 
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Ganaderos/List">Ganaderos | </a> 
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Ganaderos/Register">Registro de Ganaderos</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Ganaderos/Register">Reg-Ganaderos |</a>
                         </li>
                          <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Veterinarios/ListVeterinarios">Veterinarios</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Veterinarios/ListVeterinarios">Veterinarios |</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/Veterinarios/Register2">Registro de Veterinarios</a>
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Veterinarios/Register2">Reg-Veterinarios |</a>
                         </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Solicitudes/Solicitudes">Solicitudes |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Ejemplares/Ejemplares">Ejemplares |</a>
+                        </li>
+                         <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/HistoriasClinicas/HistoriasClinicas">Historias |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-page="/Vacunas/Vacunas">Vacunas </a>
+                        </li>
+                        
                     </ul>
                 </div>
             </div>
