@@ -9,6 +9,9 @@ namespace Ganaderia.App.Dominio
      public string Tratamiento { get; set; }
      public string VacunasAplicadas { get; set; }
      public string Observaciones { get; set; }
+     public Ejemplares Ejemplares{ get; set; }
+    
+   
      
     }
 }

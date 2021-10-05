@@ -28,7 +28,7 @@ namespace Ganaderia.App.Presentacion.Pages
            };
 
            Veterinarios = new List<Veterinario>();
-          Veterinarios.Add(veterinario);
+           Veterinarios.Add(veterinario);
 
         }
     }

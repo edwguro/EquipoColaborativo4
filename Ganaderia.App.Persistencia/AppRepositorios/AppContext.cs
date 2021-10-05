@@ -8,8 +8,9 @@ namespace Ganaderia.App.Persistencia
         public DbSet<Persona> Personas { get; set; }
         public DbSet<Ganadero> Ganaderos { get; set; }
         public DbSet<Veterinario> Veterinarios { get; set; }
-        public DbSet<Solicitudes> Solicitud { get; set; }
-        public DbSet<Vacunas> Vacuna { get; set; }
+        public DbSet<Solicitudes> Solicitudes { get; set; }
+         public DbSet<Ejemplares> Ejemplares { get; set; }
+        public DbSet<Vacunas> Vacunas { get; set; }
         public DbSet<HistoriaClinica> Historias { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) 

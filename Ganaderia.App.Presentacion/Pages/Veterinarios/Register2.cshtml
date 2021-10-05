@@ -2,11 +2,13 @@
 @model Ganaderia.App.Presentacion.Pages.Register2Model
 @{
 }
+
 <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
 
+    <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css'> 
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <script src="//code.jquery.com/jquery-2.1.3.min.js"></script>
@@ -14,75 +16,72 @@
 
     <div class="container">
         <form class="form-horizontal" role="form">
-             <style> 
-              body {
-                    background-color: lightblue;
-                    }
-     </style>
+            
+         
             <h2 align="center">Registro Veterinario</h2>
             <div class="form-group">
                 <label for="nombres" class="col-sm-3 control-label">Nombres</label>
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <input type="text" id="nombres" placeholder="" class="form-control" autofocus>
                 </div>
             </div>
             <div class="form-group">
                 <label for="apellidos" class="col-sm-3 control-label">Apellidos</label>
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <input type="text" id="apellidos" placeholder="" class="form-control" autofocus>
             </div>
             </div>
             <div class="form-group">
                 <label for="apellidos" class="col-sm-3 control-label">Numero de Telefono</label>
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <input type="text" id="apellidos" placeholder="" class="form-control" autofocus>
             </div>
             </div>
             <div class="form-group">
                 <label for="correo" class="col-sm-3 control-label">Correo* </label>
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <input type="correo" id="email" placeholder="" class="form-control" name="correo">
                 </div>
             </div>
             <div class="form-group">
                 <label for="contraseña" class="col-sm-3 control-label">Contraseña*</label>
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <input type="contraseña" id="contraseña" placeholder="" class="form-control">
                 </div>
             </div>
             <div class="form-group">
                 <label for="edadDate" class="col-sm-3 control-label">edad </label>
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <input type="" id="edad" placeholder="" class="form-control">
                 </div>
             </div>
             
             <div class="form-group">
                 <label for="latitud" class="col-sm-3 control-label">Latitud* </label>
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <input type="number" id="latitud" placeholder="Por favor escriba latitud Finca" class="form-control">
                 </div>
             </div>
             <div class="form-group">
                 <label for="longitud" class="col-sm-3 control-label">Longitud* </label>
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <input type="number" id="longitud" placeholder="Por favor escriba longitud Finca" class="form-control">
                 </div>
             </div>
             <div class="form-group">
                 <label for="especialidad" class="col-sm-3 control-label">Especialidad</label>
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <input type="text" id="especialidad" placeholder="" class="form-control" autofocus>
                 </div>
             </div>
             <div class="form-group">
                 <label for="tarjetaProfesional" class="col-sm-3 control-label">Tarjeta Profesional </label>
-                <div class="col-sm-9">
+                <div class="col-sm-6">
                     <input type="tarjetaProfesional" id="tarjetaProfesional" placeholder="" class="form-control">
                 </div>
             </div>
             <div class="form-group">
-                <label class="control-label col-sm-3">Genero</label>
+                <label  class="control-label col-sm-3">Genero</label>
                 <div class="col-sm-6">
                     <div class="row">
                         <div class="col-sm-4">
@@ -92,7 +91,7 @@
                         </div>
                         <div class="col-sm-4">
                             <label class="radio-inline">
-                                        <input type="radio" id="masculinoRadio" value="Masculino">Masculino
+                                        <input  type="radio" id="masculinoRadio" value="Masculino">Masculino
                                     </label>
                         </div>
                     </div>
@@ -100,13 +99,15 @@
             </div>
             <!-- /.form-group -->
             <div class="form-group">
-                <div class="col-sm-9 col-sm-offset-3">
+                <div class="col-sm-6 col-sm-offset-3">
                     <span class="help-block">*Campos requeridos</span>
                 </div>
             </div>
-
-            <button type="submit" class="btn btn-success">Registrarse</button>
-            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+             
+                
+                <button type="submit" class="btn btn-success mx-auto d-block ">Registrarse</button>
+              
+            
             
         </form>
         <!-- /form -->
