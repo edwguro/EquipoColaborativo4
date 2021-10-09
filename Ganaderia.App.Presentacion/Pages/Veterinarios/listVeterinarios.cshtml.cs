@@ -21,8 +21,6 @@ namespace Ganaderia.App.Presentacion.Pages
               NumeroTelefono = "3148596562",
               Correo = "mfran.trojas@cun.edu.co",
               Contrasena = "12345",
-              Latitud = 4554,
-              Longitud = 5455,
               TarjetaProfesional = "TP9877",
               Especialidad = "Zootecnico",
            };

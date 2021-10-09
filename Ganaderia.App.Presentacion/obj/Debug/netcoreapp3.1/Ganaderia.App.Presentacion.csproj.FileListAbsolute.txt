@@ -88,3 +88,4 @@ C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netco
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\HistoriasClinicas\HistoriasClinicas.cshtml.g.cs
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Solicitudes\Solicitudes.cshtml.g.cs
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Vacunas\Vacunas.cshtml.g.cs
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Ejemplares\RegistroEjemplar.cshtml.g.cs

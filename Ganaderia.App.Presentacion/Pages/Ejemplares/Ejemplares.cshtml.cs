@@ -23,7 +23,6 @@ namespace Ganaderia.App.Presentacion.Pages
               Genero= "Macho",
               TipoGanado = "Bovino",
               Raza = "Cebu",
-              
            };
            var ejemplare1 = new Ejemplares
           {
@@ -33,15 +32,11 @@ namespace Ganaderia.App.Presentacion.Pages
               NombreFinca = "Hacienda Carolina",
               Genero= "Hembra",
               TipoGanado = "Equino",
-              Raza = "Arabe criollo",
-              
+              Raza = "Arabe criollo",  
            };
-
            Ejemplares = new List<Ejemplares>();
            Ejemplares.Add(ejemplare);
            Ejemplares.Add(ejemplare1);
-
-
         }
     }
 }
