@@ -16,7 +16,7 @@ namespace Ganaderia.App.Presentacion.Pages
           {
             var ejemplare = new Ejemplares
           {
-              FechaIngresoAnimal= "25/12/23",
+              FechaIngresoAnimal= DateTime.Now,
               Peso = "340 k",
               Edad = 36,
               NombreFinca = "Hacienda la Linda",
@@ -26,7 +26,7 @@ namespace Ganaderia.App.Presentacion.Pages
            };
            var ejemplare1 = new Ejemplares
           {
-              FechaIngresoAnimal= "2/10/2021",
+              FechaIngresoAnimal= DateTime.Now,
               Peso = "310 k",
               Edad = 16,
               NombreFinca = "Hacienda Carolina",
