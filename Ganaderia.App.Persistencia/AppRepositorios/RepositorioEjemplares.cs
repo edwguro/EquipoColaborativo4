@@ -30,6 +30,10 @@ void IRepositorioEjemplares.AddEjemplares(Ejemplares ejemplares)
             }
             return ejemplarEncontrado;
         }
+        IEnumerable<Ejemplares> IRepositorioEjemplares.GetAllEjemplares()
+        {
+            return _appContext.Ejemplares;
+        }
 
     } 
 }

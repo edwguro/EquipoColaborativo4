@@ -33,6 +33,5 @@ C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netst
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.AssemblyInfoInputs.cache
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.AssemblyInfo.cs
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.csproj.CoreCompileInputs.cache
-C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.csproj.CopyComplete
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.dll
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Persistencia\obj\Debug\netstandard2.1\Ganaderia.App.Persistencia.pdb

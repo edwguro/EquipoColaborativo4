@@ -5,29 +5,58 @@
 <link rel="stylesheet" href="/lib/bootstrap.min.css">
   <script src="/lib/jquery-1.12.2.min.js"></script>
   <script src="/lib/bootstrap.min.js"></script>
+<table  class="table table-striped">
+
+    <tr class="table-success">
+    <th>FechaIngresoAnimal</th>
+    <th>Peso</th>
+    <th>Edad</th>
+    <th>NombreFinca</th>
+    <th>Genero</th>
+    <th>TipoGanado</th>
+    <th>Raza</th>
+  </tr>
+  @if (Model.Ejemplares != null)
+  {
+    @foreach (var ejemplare in Model.Ejemplares)
+    {
+            <tr class="bg-warning">
+            <td>@ejemplare.FechaIngresoAnimal</td>
+            <td>@ejemplare.Peso</td>
+            <td>@ejemplare.Edad</td>
+            <td>@ejemplare.NombreFinca</td>
+            <td>@ejemplare.Genero</td>
+            <td>@ejemplare.TipoGanado</td>
+            <td>@ejemplare.Raza</td>
+            </tr>
+    }
+
+  }
+
+</table>
 
 
 <div class="container" align="center" class="font-weight-bold">
   <h2 class="font-weight-bold">Registro General de Ganado</h2>
-  <form  class="form-horizontal" role="form">
+  <form method="post" class="form-horizontal" role="form">
     <div class="form-group">
       <div class="col-sm-7">
-        <input type="email" class="form-control" id="Fecha Ingreso Animal" placeholder="Ingrese Fecha de ingreso a la finca">
+        <input type="datetime.now" class="form-control" id="FechaIngresoAnimal" placeholder="Ingrese Fecha de ingreso a la finca" name="FechaIngresoAnimal">
       </div>
     </div>
     <div class="form-group">
       <div class="col-sm-7">          
-        <input type="password" class="form-control" id="pwd" placeholder="Ingrese el peso en Kilos">
+        <input type="text" class="form-control" id="Peso" placeholder="Ingrese el peso en Kilos" name="Peso">
       </div>
     </div>
  <div class="form-group">
       <div class="col-sm-7">          
-        <input type="password" class="form-control" id="pwd" placeholder="Ingrese la edad en meses">
+        <input type="text" class="form-control" id="Edad" placeholder="Ingrese la edad en meses" name="Edad">
       </div>
     </div>
  <div class="form-group">
       <div class="col-sm-7">          
-        <input type="password" class="form-control" id="pwd" placeholder="Ingrese el nombre la finca">
+        <input type="text" class="form-control" id="NombreFinca" placeholder="Ingrese el nombre la finca" name="NombreFinca">
       </div>
     </div>
 
@@ -35,20 +64,19 @@
       <div class="form-group">
         <label for="disabledSelect" class="col-sm-2 control-label"></label>
         <div class="col-sm-7">
-          <select id="disabledSelect" class="form-control">
-             <option disabledSelect>Seleccione un genero</option>
+          <select id="disabledSelect" class="form-control" placeholder="eleccione un genero" name="Genero">
             <option class="table-danger">Hembra</option>
             <option class="table-primary">Macho</option>
           </select>
         </div>
       </div>
     </fieldset>
-   
+
  <fieldset>
       <div class="form-group">
         <label for="disabledSelect" class="col-sm-2 control-label"></label>
         <div class="col-sm-7">
-          <select id="disabledSelect" class="form-control">
+          <select id="disabledSelect" class="form-control"  placeholder="Tipo de ganado" name="TipoGanado">
              <option disabledSelect>Seleccione un tipo de ganado</option>
             <option >Bovino</option>
             <option>Porcino</option>
@@ -60,13 +88,13 @@
     </fieldset>
  <div class="form-group">
       <div class="col-sm-7">          
-        <input align="center" type="password" class="form-control" id="pwd" placeholder="Ingrese el tipo de raza">
+        <input align="center" type="text" class="form-control" id="Raza" placeholder="Ingrese el tipo de raza" name="Raza">
       </div>
     </div>
-   
+
     <div class="form-group">        
       <div class="col-sm-offset-2 col-sm-5">
-        <button  type="submit" class="btn btn-success">Registrar Ejemplar</button>
+        <button  type="submit" class="btn btn-success" asp-page-handler="Add">Registrar Ejemplar</button>
       </div>
     </div>
   </form>

@@ -5,7 +5,7 @@
 <h2 align="center"> Lista general de Ganado </h2>
 
 <table  class="table table-striped">
- 
+
     <tr class="table-success">
     <th>FechaIngresoAnimal</th>
     <th>Peso</th>
@@ -15,18 +15,22 @@
     <th>TipoGanado</th>
     <th>Raza</th>
   </tr>
-  
-  @foreach (var ejemplare in Model.Ejemplares)
+  @if (Model.Ejemplares != null)
   {
-    <tr class="bg-warning">
-    <td>@ejemplare.FechaIngresoAnimal</td>
-    <td>@ejemplare.Peso</td>
-    <td>@ejemplare.Edad</td>
-    <td>@ejemplare.NombreFinca</td>
-    <td>@ejemplare.Genero</td>
-    <td>@ejemplare.TipoGanado</td>
-    <td>@ejemplare.Raza</td>
-    </tr>  
+    @foreach (var ejemplare in Model.Ejemplares)
+    {
+        <tr class="bg-warning">
+        <td>@ejemplare.FechaIngresoAnimal</td>
+        <td>@ejemplare.Peso</td>
+        <td>@ejemplare.Edad</td>
+        <td>@ejemplare.NombreFinca</td>
+        <td>@ejemplare.Genero</td>
+        <td>@ejemplare.TipoGanado</td>
+        <td>@ejemplare.Raza</td>
+        </tr>
+    }
   }
+
+
 
 </table>

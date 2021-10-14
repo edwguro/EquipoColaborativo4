@@ -147,6 +147,12 @@ namespace Ganaderia.App.Consola
             }
 
         }
+         private static void GetAllEjemplares()
+        {
+            var ejemplares = _repositorioEjemplares.GetAllEjemplares();
+
+        }
+
 
 
     }
