@@ -1,6 +1,7 @@
 using System;
 using Ganaderia.App.Dominio;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Ganaderia.App.Persistencia
 {
@@ -20,6 +21,10 @@ void IRepositorioGanadero.AddGanadero(Ganadero ganadero)
         IEnumerable<Ganadero> IRepositorioGanadero.GetAllGanaderos()
         {
             return _appContext.Ganaderos;
+        }
+        Ganadero IRepositorioGanadero.GetLogin(string correo, string contrasena)
+        {
+            return _appContext.Ganaderos.FirstOrDefault(g => g.Correo == correo && g.Contrasena == contrasena);
         }
 
     } 

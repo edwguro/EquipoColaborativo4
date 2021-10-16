@@ -7,5 +7,6 @@ namespace Ganaderia.App.Persistencia
     {
        void AddVeterinario(Veterinario veterinario);
         IEnumerable<Veterinario> GetAllVeterinarios();
+        Veterinario GetLogin2(string correo, string contrasena);
     }
 }

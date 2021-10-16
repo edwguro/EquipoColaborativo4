@@ -7,5 +7,6 @@ namespace Ganaderia.App.Persistencia
     {
        void AddGanadero(Ganadero ganadero);
         IEnumerable<Ganadero> GetAllGanaderos();
+        Ganadero GetLogin(string correo, string contrasena);
     }
 }

@@ -131,3 +131,4 @@ C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\bin\Debug\netco
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\bin\Debug\netcoreapp3.1\Ganaderia.App.Persistencia.dll
 C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\bin\Debug\netcoreapp3.1\Ganaderia.App.Persistencia.pdb
+C:\Users\user\Documents\Ganaderia.App\Ganaderia.App.Presentacion\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LayoutLogin.cshtml.g.cs

@@ -1,21 +1,75 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Home page";
+  Layout = "~/Pages/Shared/_LayoutLogin.cshtml";
+  ViewData["Title"] = "Home page";
 }
 <head>
-<style>
-body {
-  background-color: lightblue;
-}
+      <title>Login Page</title>
+   <!--Made with love by Mutiullah Samim -->
 
-</style>
+  <!--Bootsrap 4 CDN-->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Fontawesome CDN-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+  <!--Custom styles-->
+  <link rel="stylesheet" type="text/css" href="styles.css">
 
 </head>
-<div class="p-3 mb-2 bg-success text-white">  </div>
+<body>
+ 
 <div class="text-center">
-    <h1 class="display-4">Bienvenido a SICSA S.A. </h1>
+    <h1 class="display-6">Bienvenido a SICSA S.A. </h1>
      <h4 class="display-8">Sistema de Informacion y Control Animal </h4>
-
-    <p>Aprender Sobre: <a href="https://docs.microsoft.com/aspnet/core">Control y salud para ganado con el sistema SICSA</a>.</p>
+    <p>Aprender Sobre: <a href="https://ganaderia.win/consejos-para-cuidar-la-salud-de-su-ganado/">Control y salud para ganado con el sistema SICSA</a>.</p>
 </div>
+
+
+<div class="container"><br>
+  <br>
+  <br>
+  <div class="d-flex justify-content-center h-100">
+    <div class="card">
+      <div class="card-header">
+        <h3 align="center">Ingreso a SICSA</h3>
+        <div class="d-flex justify-content-end social_icon">
+          <span><i class="fab fa-facebook-square"></i></span>
+          <span><i class="fab fa-google-plus-square"></i></span>
+          <span><i class="fab fa-twitter-square"></i></span>
+        </div>
+      </div>
+      <div class="card-body">
+        <form method="post">
+
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-user"></i></span>
+            </div>
+            <input type="text" class="form-control" placeholder="Ingrese su E-mail" name="Correo">
+
+          </div>
+          <div class="input-group form-group">
+            <div class="input-group-prepend">
+              <span class="input-group-text"><i class="fas fa-key"></i></span>
+            </div>
+            <input type="password" class="form-control" placeholder="Ingrese su Contraseña" name="Contrasena">
+          </div>
+
+           <button type="submit" class="btn btn-success mx-auto d-block " asp-page-handler="Login">Ingresar a SICSA</button>
+
+        </form>
+      </div>
+      <div class="card-footer">
+        <div class="d-flex justify-content-center links">
+          No tienes una cuenta?<a href="#">Ingresa aqui</a>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a href="#">Olvidaste tu Contraseña?</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>

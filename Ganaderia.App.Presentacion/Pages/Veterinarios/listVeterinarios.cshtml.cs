@@ -11,6 +11,7 @@ namespace Ganaderia.App.Presentacion.Pages
     public class listVeterinariosModel : PageModel
     {
        public List <Veterinario> Veterinarios {get; set; }
+        public string usuarios;
        
         public void OnGet()
           {
@@ -27,6 +28,10 @@ namespace Ganaderia.App.Presentacion.Pages
 
            Veterinarios = new List<Veterinario>();
            Veterinarios.Add(veterinario);
+
+            usuarios = Request.Cookies["key"];
+
+           Console.WriteLine("Nombre login :" + usuarios);
 
         }
     }
