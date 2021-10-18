@@ -18,8 +18,11 @@
     <th>Contrasena</th>
     <th>Latitud</th>
     <th>Longitud</th>
+    <th>Eliminar Registro</th>
+
     </tr>
-  @if (Model.Ganaderos != null)
+ <form method="post">
+   @if (Model.Ganaderos != null)
   {
     @foreach (var ganadero in Model.Ganaderos)
     {
@@ -31,16 +34,21 @@
         <td>@ganadero.Contrasena</td>
         <td>@ganadero.Latitud</td>
         <td>@ganadero.Longitud</td>
+        <td>
+          <button type="submit" class="btn btn-danger" asp-page-handler="Del"
+          asp-route-id="@ganadero.Id">Eliminar</button>
+        </td>
         </tr>
     }
 
   }
+ </form>
 
 
 </table>
 
     <div class="container" align="center" class="font-weight-bold">
-    <h3 class="font-weight-bold">Registro Ganadero</h3>
+    <h3 class="font-weight-bold">Registro de Ganaderos</h3>
   <form method="post" class="form-horizontal" role="form">
     <div class="form-group">
       <div class="col-sm-7">

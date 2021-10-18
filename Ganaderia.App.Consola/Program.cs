@@ -17,7 +17,8 @@ namespace Ganaderia.App.Consola
             //AddEjemplares();
             //AddEjemplaresVacunasVeterinario();
             // AsignarVeterinarioAEjemplares();
-            GetAllVeterinarios();
+              //DeleteGanadero(1);
+              //GetAllVeterinarios();
 
             
             
@@ -151,6 +152,14 @@ namespace Ganaderia.App.Consola
         {
             var ejemplares = _repositorioEjemplares.GetAllEjemplares();
 
+        }
+        private static void DeleteGanadero(int idGanadero)
+        {
+            _repositorioGanadero.DeleteGanadero(idGanadero);
+        }
+         private static void DeleteVerinario(int idVeterinario)
+        {
+            _repositorioVeterinario.DeleteVeterinario(idVeterinario);
         }
 
 

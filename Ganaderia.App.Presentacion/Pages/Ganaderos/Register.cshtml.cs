@@ -13,6 +13,7 @@ namespace Ganaderia.App.Presentacion.Pages
     {
          private static IRepositorioGanadero _repositorioGanadero = new RepositorioGanadero(new Persistencia.AppContext()); 
         public IEnumerable<Ganadero> Ganaderos { get; set; }
+        public Ganadero ganaderoEliminado { get; set; }
         
         public void OnGet()
         {
@@ -23,5 +24,17 @@ namespace Ganaderia.App.Presentacion.Pages
             _repositorioGanadero.AddGanadero(ganadero);
              Ganaderos = _repositorioGanadero.GetAllGanaderos();
         }
+        public void OnPostDel(int id)
+        {
+            if (id > 0)
+            {
+                ganaderoEliminado = _repositorioGanadero.GetGanadero(id);
+                Console.WriteLine("Nombre: " + ganaderoEliminado.Nombres);
+                _repositorioGanadero.DeleteGanaderos(id);
+            }
+            Ganaderos = _repositorioGanadero.GetAllGanaderos();
+
+        }
     }
+
 }

@@ -27,6 +27,21 @@ void IRepositorioVeterinario.AddVeterinario(Veterinario veterinario)
         {
             return _appContext.Veterinarios.FirstOrDefault(v => v.Correo == correo && v.Contrasena == contrasena);
         }
+         void IRepositorioVeterinario.DeleteVeterinarios(int idVeterinario)
+        {
+            var veterinarioEncontrado = _appContext.Veterinarios.FirstOrDefault(v => v.Id == idVeterinario);
+
+            if (veterinarioEncontrado != null) 
+            {
+                _appContext.Veterinarios.Remove(veterinarioEncontrado);
+                _appContext.SaveChanges();
+            }
+        }
+        Veterinario IRepositorioVeterinario.GetVeterinario(int idVeterinario)
+        {
+            return _appContext.Veterinarios.FirstOrDefault(v => v.Id == idVeterinario);
+        }
+
 
 
     } 

@@ -16,6 +16,7 @@
     <th>Genero</th>
     <th>TipoGanado</th>
     <th>Raza</th>
+    <th>Eliminar Registro</th>
   </tr>
   @if (Model.Ejemplares != null)
   {
@@ -29,6 +30,11 @@
             <td>@ejemplare.Genero</td>
             <td>@ejemplare.TipoGanado</td>
             <td>@ejemplare.Raza</td>
+            <td>
+              <button type="submit" class="btn btn-danger" asp-page-handler="Del"
+                 asp-route-id="@ejemplare.Id">Eliminar</button>
+            </td>
+             
             </tr>
     }
 
@@ -78,7 +84,7 @@
         <label for="disabledSelect" class="col-sm-2 control-label"></label>
         <div class="col-sm-7">
           <select id="disabledSelect" class="form-control"  placeholder="Tipo de ganado" name="TipoGanado">
-             <option disabledSelect>Seleccione un tipo de ganado</option>
+             <option disabledSelect>Seleccione un tipo de ganado</option> 
             <option >Bovino</option>
             <option>Porcino</option>
              <option >Equino</option>

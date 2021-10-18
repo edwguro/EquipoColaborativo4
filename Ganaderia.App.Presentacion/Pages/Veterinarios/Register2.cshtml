@@ -10,8 +10,8 @@
 
 
 
-    <table  class="table table-striped">
-   <tr class="table-success">
+<table  class="table table-striped">
+    <tr class="table-success">
     <th>Nombres</th>
     <th>Apellidos</th>
     <th>NumeroTelefono</th>
@@ -19,9 +19,11 @@
     <th>Contrasena</th>
     <th>TarjetaProfesional</th>
     <th>Especialidad</th>
+    <th>Eliminar Registro</th>
 
   </tr>
-  @if (Model.Veterinarios != null)
+  <form method="post">
+     @if (Model.Veterinarios != null)
   {
     @foreach (var veterinario in Model.Veterinarios)
     {
@@ -33,11 +35,18 @@
         <td>@veterinario.Contrasena</td>
         <td>@veterinario.TarjetaProfesional</td>
         <td>@veterinario.Especialidad</td>
+        <td>
+           <button type="submit" class="btn btn-danger" asp-page-handler="Del"
+          asp-route-id="@veterinario.Id">Eliminar</button>
+        </td>
+        
 
         </tr>
-    }
+      }
   }
 
+  </form>
+ 
 
 </table>
 

@@ -13,7 +13,7 @@ namespace Ganaderia.App.Presentacion.Pages
       public List <Ganadero> Ganaderos {get; set; }
       public string usuarios;
        
-        public void OnGet()
+        public IActionResult OnGet()
           {
            var ganadero = new Ganadero
           {
@@ -29,6 +29,11 @@ namespace Ganaderia.App.Presentacion.Pages
            Ganaderos = new List<Ganadero>();
            Ganaderos.Add(ganadero);
            usuarios = Request.Cookies["key"];
+            // if (usuarios == null) {
+            //     return Redirect("/Ganaderos/list");
+            // }
+
+           return Page();
 
            Console.WriteLine("Nombre login :" + usuarios);
 
